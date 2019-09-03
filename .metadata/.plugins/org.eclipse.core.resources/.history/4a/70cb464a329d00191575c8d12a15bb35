@@ -1,0 +1,13 @@
+package p4;
+
+import p3.Transaction;
+
+public class Withdraw implements Transaction {
+
+	@Override
+	public void process(double amt) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

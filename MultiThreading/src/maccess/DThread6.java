@@ -1,0 +1,20 @@
+package maccess;
+import test.Printer;
+public class DThread6 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Printer p1 = new Printer();
+		Thread t1 = new Thread(p1);
+		t1.setName("User1");
+		Thread t2 = new Thread(p1);
+		t2.setName("User2");
+		Thread t3 = new Thread(p1);
+		t3.setName("User3");
+		
+		t1.start();
+		t2.start();
+		t3.start();
+
+	}
+
+}

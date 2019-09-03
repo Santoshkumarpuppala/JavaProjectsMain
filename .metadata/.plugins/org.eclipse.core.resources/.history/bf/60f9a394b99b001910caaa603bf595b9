@@ -1,0 +1,18 @@
+package maccess;
+import test.IComparable;
+import test.Display;
+import java.util.Scanner;
+public class MainClass 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner();
+		Display d1 = new Display();
+		System.out.println("Enter the value");
+		
+		
+	}
+}
+		
+		
+

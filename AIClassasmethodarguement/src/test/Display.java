@@ -1,0 +1,7 @@
+package test;
+
+public class Display {
+	public void dis(int x ,int y, IComparable ob) {
+		System.out.println("Result:" +ob.compareTO(x, y));
+	}
+}

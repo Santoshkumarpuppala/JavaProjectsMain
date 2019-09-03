@@ -1,0 +1,6 @@
+package p4;
+import p3.Transaction;
+
+public interface Withdraw {
+
+}

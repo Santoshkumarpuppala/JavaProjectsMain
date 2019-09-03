@@ -1,0 +1,14 @@
+package maccess;
+import test.Addition;
+public class DPoly1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Addition ob = new Addition();
+		ob.add(1, 2);
+		ob.add(1, 3.4F);
+		ob.add(1, 2,3);
+
+	}
+
+}

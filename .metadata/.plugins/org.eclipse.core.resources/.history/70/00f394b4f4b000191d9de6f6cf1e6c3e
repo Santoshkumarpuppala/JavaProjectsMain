@@ -1,0 +1,18 @@
+package test;
+public class Selection {
+	public synchronized void select(int n, String name) {
+		if(n<=Available.avl) {
+			for(int i=1;i<=n;i++) {
+				System.out.println(name+" : Ticket :"+i);
+				try {
+					Thread.sleep(2000);
+				}catch(InterruptedException ie) {}
+			}//end of loop
+		Available.avl = Available.avl-n;
+	}//end of if
+		else {
+			System.out.println("Sorry ! No tickets available");
+		}
+	}
+}
+
